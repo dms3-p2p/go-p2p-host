@@ -3,13 +3,13 @@ package host
 import (
 	"context"
 
-	ifconnmgr "github.com/libp2p/go-libp2p-interface-connmgr"
-	inet "github.com/libp2p/go-libp2p-net"
-	peer "github.com/libp2p/go-libp2p-peer"
-	pstore "github.com/libp2p/go-libp2p-peerstore"
-	protocol "github.com/libp2p/go-libp2p-protocol"
-	ma "github.com/multiformats/go-multiaddr"
-	msmux "github.com/multiformats/go-multistream"
+	ifconnmgr "github.com/dms3-p2p/go-p2p-interface-connmgr"
+	inet "github.com/dms3-p2p/go-p2p-net"
+	peer "github.com/dms3-p2p/go-p2p-peer"
+	pstore "github.com/dms3-p2p/go-p2p-peerstore"
+	protocol "github.com/dms3-p2p/go-p2p-protocol"
+	ma "github.com/dms3-mft/go-multiaddr"
+	msmux "github.com/dms3-mft/go-multistream"
 )
 
 // Host is an object participating in a p2p network, which

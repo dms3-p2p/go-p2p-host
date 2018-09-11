@@ -4,7 +4,7 @@ import (
 	"strings"
 
 	semver "github.com/coreos/go-semver/semver"
-	"github.com/libp2p/go-libp2p-protocol"
+	"github.com/dms3-p2p/go-p2p-protocol"
 )
 
 // MultistreamSemverMatcher returns a matcher function for a given base protocol.
